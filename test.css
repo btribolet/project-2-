@@ -1,0 +1,26 @@
+html{
+    height: 100%;
+    display: flex;
+}
+
+body{
+    margin: auto;
+    background-color: #eeee;
+}
+
+.bears{
+    font-size: 5ww;
+    line-height: 1.3;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: #cb00b3;
+    position: relative;
+    padding: 1em;
+    display: flex;
+}
+
+@media (prefers-color-scheme: dark){
+    body{
+        background-color: blue;
+    }
+}
